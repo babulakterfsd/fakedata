@@ -1,6 +1,6 @@
 .mainContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 30px;
 }
@@ -13,3 +13,24 @@
     height: 150px;
     width: 100%;
 }
+
+@media only screen and (min-width: 576px){
+    .mainContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 991.99px){
+    .mainContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+ @media only screen and (min-width: 1200px){
+    .mainContainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} 
+ @media only screen and (min-width: 1400px){
+    .mainContainer {
+        grid-template-columns: repeat(5, 1fr);
+   }
+ }
