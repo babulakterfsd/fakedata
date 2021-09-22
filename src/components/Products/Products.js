@@ -10,7 +10,6 @@ const products = ({products}) => {
 };
 
 const SingleProduct = ({SingleProduct}) => {
-    console.log(SingleProduct);
   return (
       <div>
          <div className="singleProduct">

@@ -18,7 +18,7 @@ function App() {
        <div className="container py-5">
          <div className="row">
            <div className="mx-auto col-10 col-md-10 col-lg-12">
-           <h1 className="text-center text-success mb-3 mb-md-5">Products are being shown in the console</h1>
+           <h1 className="text-center text-success mb-3 mb-md-5">Grocery Product List </h1>
             <Products products = {products}></Products>
            </div>
          </div>
