@@ -1,0 +1,15 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.singleProduct {
+    border: 1px solid indianred;
+    padding: 5px;
+    border-radius: 15px;
+}
+.singleProduct img {
+    height: 150px;
+    width: 100%;
+}
